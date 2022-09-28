@@ -13,7 +13,7 @@ jobs:
     env:
       libraryName: readline
       installationPath: readline-installation
-      tagName: 8.2 # target tag
+      tagName: readline-8.2 # target tag
       mingwTargetZip: readline-${{ github.ref_name }}-x86_64-posix-seh-rev0-8.1.0.zip
     steps:
       - uses: actions/checkout@v3
